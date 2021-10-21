@@ -1,0 +1,119 @@
+body{
+    margin: 0vh;
+    padding: 0vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+.header .h-top img{
+    width: 40vh;
+    width: 40vh;
+}
+.h-top{
+    display: flex;
+    justify-content: center;
+    margin-block: -10vh;
+}
+.h-bot{
+    display: flex;
+    justify-content: space-around;
+    background-color: tomato;
+    padding-block: 3vh;
+}
+.h-c a{
+    text-decoration: none;
+     color: white;
+}
+
+.content{
+    padding: 5vw;
+}
+p{
+    background-color: white;
+    border-radius: 10px;
+}
+.c-top{
+    text-align: center;
+}
+.c-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vw;
+    background-image: url("bg.png");
+    background-size: cover;
+}
+.cb-box{
+    text-align: center;
+}
+.cbb-img1{
+    width: 30vh;
+    height: 30vh;
+    background-image: url("menu1.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+.cbb-img2{
+    width: 30vh;
+    height: 30vh;
+    background-image: url("menu2.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+.cbb-img3{
+    width: 30vh;
+    height: 30vh;
+    background-image: url("menu3.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+.cbb-img4{
+    width: 30vh;
+    height: 30vh;
+    background-image: url("menu4.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+
+.footer{
+    display: flex;
+    background-color: tomato;
+    padding-block: 3vh;
+    justify-content: space-between;
+}
+.f-l{
+    display: flex;
+    align-items: center;
+    margin-left: 5vh;
+}
+.f-r{
+    display: flex;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.fr-img1{
+    margin-right: 3vh;
+}
+.content-s{
+    margin: 5vh;
+}
+.sc-top{
+    text-align: center;
+}
+.cs-bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 60vh;
+}
+.csb-gender{
+    display: flex;
+    justify-content: center;
+}
+.title, .dob{
+    display: flex;
+    justify-content: center;
+}
+input,textarea{
+    text-align: center;
+}
